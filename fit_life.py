@@ -3,6 +3,7 @@
 # Константы WATTER_PER_KG(рекомендация для поддержания водного баланса в мл.)
 
 WATER_PER_KG = 30
+ML_IN_LITER = 1000
 
 # Приветсвенное сообщение
 
@@ -26,7 +27,7 @@ bmi = round(bmi, 1)
 # Расчет рекомендуемой нормы воды
 
 water_ml = user_weight * WATER_PER_KG
-water_l = water_ml / 1000
+water_l = water_ml / ML_IN_LITER
 
 # 4. Вывод результата
 print()
