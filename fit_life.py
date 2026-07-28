@@ -14,7 +14,7 @@ print("Добро пожаловать в FitLife!")
 user_name = input("Введите ваше имя: ")
 user_age = int(input("Введите ваш возраст: "))
 
-# Сбор данных о пользователя его вес "user_weight" и рост "user_height"
+# Сбор данных о пользователе его вес "user_weight" и рост "user_height"
 
 user_weight = float(input("Введите ваш вес (кг): "))
 user_height = float(input("Введите ваш рост (в метрах, например 1.75): "))
